@@ -125,7 +125,27 @@ sections:
         attendancePeriod:
           begin: Sep 2017
           end: May 2019
+  contact:
+    heading: 'Let''s get in touch :)'
+    inputs:
+      - inputType: text
+        label: Name
+        name: name
+        required: true
+      - inputType: email
+        label: Email
+        name: email
+        required: true
+      - inputType: tel
+        label: Phone
+        name: phone
+      - inputType: textarea
+        label: Your message...
+        name: message
+        required: true
 ---
+
+
 
 
 

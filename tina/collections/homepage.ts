@@ -152,13 +152,6 @@ const homepageCollection: Collection<false> = {
                   label: "Attendance period",
                   name: "attendancePeriod",
                   type: "object",
-                  // TODO
-                  // ui: {
-                  // itemProps: (item = {}) => {
-                  //   const { begin, end }
-
-                  //   return {  label: `Atten`}
-                  // },
                   fields: [
                     {
                       label: "Begin",
@@ -172,6 +165,42 @@ const homepageCollection: Collection<false> = {
                     },
                   ],
                 },
+              ],
+            },
+          ],
+        },
+        {
+          label: "Contact",
+          name: "contact",
+          type: "object",
+          fields: [
+            { label: "Heading", name: "heading", type: "string" },
+            {
+              label: "Inputs",
+              name: "inputs",
+              type: "object",
+              list: true,
+              ui: {
+                itemProps: (item = {}) => {
+                  return { label: item?.name };
+                },
+              },
+              fields: [
+                {
+                  label: "Input type",
+                  name: "inputType",
+                  type: "string",
+                  options: [
+                    { label: "Email", value: "email" },
+                    { label: "Number", value: "number" },
+                    { label: "Tel", value: "tel" },
+                    { label: "Text", value: "text" },
+                    { label: "Textarea", value: "textarea" },
+                  ],
+                },
+                { label: "Label", name: "label", type: "string" },
+                { label: "Name", name: "name", type: "string" },
+                { label: "Required", name: "required", type: "boolean" },
               ],
             },
           ],
