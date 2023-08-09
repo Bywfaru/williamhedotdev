@@ -5,7 +5,7 @@ sections:
       # Hi, I'm William
 
 
-      ![github avatar](/media/socialMedia/github-avatar.png)
+      ![](/media/socialMedia/github-avatar.png)
 
 
       ## Pleased to meet you!
@@ -19,9 +19,11 @@ sections:
       Computer Science with a specialty in Wireless and Mobile Applications
       Development, also at BCIT.
 
+
       Aside from web development, I would love to pursue game design and
       development. I have always dreamed about telling moving tales through
       exciting gameplay accompanied by breathtaking art.
+
 
       I built this portfolio using [Next.js](https://nextjs.org/), powered by
       [TinaCMS](https://tina.io/).
@@ -126,7 +128,7 @@ sections:
           begin: Sep 2017
           end: May 2019
   contact:
-    heading: 'Let''s get in touch :)'
+    heading: 'Let''s get in touch :-)'
     inputs:
       - inputType: text
         label: Name
@@ -144,6 +146,7 @@ sections:
         name: message
         required: true
 ---
+
 
 
 
