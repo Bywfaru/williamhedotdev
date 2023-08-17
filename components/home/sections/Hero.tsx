@@ -1,5 +1,9 @@
 const HeroSection: React.FC<{}> = () => {
-  return <div>Enter</div>;
+  return (
+    <section id="home" className="container">
+      Enter
+    </section>
+  );
 };
 
 export default HeroSection;

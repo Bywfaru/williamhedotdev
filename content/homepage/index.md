@@ -1,13 +1,9 @@
 ---
 sections:
   about:
+    heading: 'Hi, I''m William!'
+    avatar: /media/socialMedia/github-avatar.png
     body: >
-      # Hi, I'm William
-
-
-      ![](/media/socialMedia/github-avatar.png)
-
-
       ## Pleased to meet you!
 
 
@@ -156,3 +152,16 @@ sections:
 
 
 
+
+<<<<<<< Updated upstream
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes

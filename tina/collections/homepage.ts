@@ -20,7 +20,11 @@ const homepageCollection: Collection<false> = {
           label: "About",
           name: "about",
           type: "object",
-          fields: [{ label: "Body", name: "body", type: "rich-text" }],
+          fields: [
+            { label: "Heading", name: "heading", type: "string" },
+            { label: "Avatar", name: "avatar", type: "image" },
+            { label: "Body", name: "body", type: "rich-text" },
+          ],
         },
         {
           label: "Skills",

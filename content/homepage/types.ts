@@ -43,6 +43,8 @@ export type HomepageProjectsSection = {
 
 export type HomepageAboutSection = {
   body: string;
+  heading: string;
+  avatar: string;
 };
 
 export type HomepageSkillsSectionSkill = {

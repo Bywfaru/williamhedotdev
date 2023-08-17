@@ -21,7 +21,8 @@
       2,
       { "namedComponents": "arrow-function" }
     ],
-    "react/no-array-index-key": "off"
+    "react/no-array-index-key": "off",
+    "react/require-default-props": "off"
   },
   "parserOptions": {
     "project": "./tsconfig.json"

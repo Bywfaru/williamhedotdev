@@ -1,3 +1,5 @@
+"use client";
+
 import {
   About,
   Contact,
@@ -13,9 +15,13 @@ const { sections } = homepageAttributes as HomepageAttributes;
 
 const HomePage: React.FC<null> = () => {
   return (
-    <main>
+    <main className="flex gap-24 flex-col">
       <Hero />
-      <About body={sections.about.body} />
+      <About
+        body={sections.about.body}
+        avatar={sections.about.avatar}
+        heading={sections.about.heading}
+      />
       <Skills
         categories={sections.skills.categories}
         heading={sections.skills.heading}
