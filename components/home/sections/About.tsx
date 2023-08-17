@@ -5,8 +5,8 @@ import ReactMarkdown, { Components } from "react-markdown";
 type AboutSectionProps = { body?: string; avatar: string; heading: string };
 
 const reactMarkdownComponents: Components = {
-  h1: ({ children }) => <h2 className="text-center text-3xl">{children}</h2>,
-  h2: ({ children }) => <h3 className="text-center text-2xl">{children}</h3>,
+  h1: ({ children }) => <h2 className="text-center">{children}</h2>,
+  h2: ({ children }) => <h3 className="text-center">{children}</h3>,
   img: ({ src, alt = "" }) =>
     src ? (
       <div className="relative w-40 h-40 rounded-full overflow-hidden">
@@ -42,8 +42,8 @@ const AboutSection: React.FC<AboutSectionProps> = ({
 
   return (
     <section id="about">
-      <div className="container flex gap-6 flex-col mx-auto items-center max-w-xl">
-        <h2 className="text-center text-3xl">{heading}</h2>
+      <div className="container flex gap-6 flex-col mx-auto items-center max-w-screen-sm p-6">
+        <h2 className="text-center">{heading}</h2>
 
         <Avatar src={avatar} />
 

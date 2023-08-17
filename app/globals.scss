@@ -17,11 +17,33 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #212529;
+}
+
+@layer base {
+  h2 {
+    @apply text-3xl;
+    @apply font-bold;
+    color: #193138;
+  }
+
+  h3 {
+    @apply text-2xl;
+    @apply font-medium;
+    color: #2f5a67;
+  }
+
+  p {
+  }
+
+  a {
+    @apply underline;
+    @apply transition-all;
+    color: #4ea7b1;
+
+    &:hover {
+      background-color: #4ea7b1;
+      color: white;
+    }
+  }
 }
