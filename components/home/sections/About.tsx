@@ -42,8 +42,8 @@ const AboutSection: React.FC<AboutSectionProps> = ({
 
   return (
     <section id="about">
-      <div className="container flex gap-6 flex-col mx-auto items-center max-w-screen-sm p-6">
-        <h2 className="text-center">{heading}</h2>
+      <div className="sectionInnerContainer">
+        <h2>{heading}</h2>
 
         <Avatar src={avatar} />
 

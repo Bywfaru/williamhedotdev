@@ -20,25 +20,23 @@ body {
   color: #212529;
 }
 
+.sectionInnerContainer {
+  @apply container flex gap-6 flex-col mx-auto items-center max-w-screen-md px-6 mb-24;
+}
+
 @layer base {
   h2 {
-    @apply text-3xl;
-    @apply font-bold;
+    @apply text-3xl font-bold text-center;
     color: #193138;
   }
 
   h3 {
-    @apply text-2xl;
-    @apply font-medium;
+    @apply text-2xl font-medium text-center;
     color: #2f5a67;
   }
 
-  p {
-  }
-
   a {
-    @apply underline;
-    @apply transition-all;
+    @apply underline transition-all;
     color: #4ea7b1;
 
     &:hover {

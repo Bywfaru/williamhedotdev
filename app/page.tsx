@@ -15,7 +15,7 @@ const { sections } = homepageAttributes as HomepageAttributes;
 
 const HomePage: React.FC<null> = () => {
   return (
-    <main className="flex gap-24 flex-col">
+    <main className="flex flex-col">
       <Hero />
       <About
         body={sections.about.body}
