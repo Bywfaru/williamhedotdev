@@ -35,6 +35,12 @@ body {
     color: #2f5a67;
   }
 
+  h4,
+  h5,
+  h6 {
+    @apply text-center;
+  }
+
   a {
     @apply underline transition-all;
     color: #4ea7b1;

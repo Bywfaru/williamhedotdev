@@ -1,3 +1,4 @@
+import { SectionContainer } from "@/components/shared";
 import Image, { ImageProps } from "next/image";
 import React from "react";
 import ReactMarkdown, { Components } from "react-markdown";
@@ -41,20 +42,18 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   if (!body?.trim().length) return null;
 
   return (
-    <section id="about">
-      <div className="sectionInnerContainer">
-        <h2>{heading}</h2>
+    <SectionContainer id="about">
+      <h2>{heading}</h2>
 
-        <Avatar src={avatar} />
+      <Avatar src={avatar} />
 
-        <ReactMarkdown
-          className="flex flex-col gap-6"
-          components={reactMarkdownComponents}
-        >
-          {body}
-        </ReactMarkdown>
-      </div>
-    </section>
+      <ReactMarkdown
+        className="flex flex-col gap-6"
+        components={reactMarkdownComponents}
+      >
+        {body}
+      </ReactMarkdown>
+    </SectionContainer>
   );
 };
 

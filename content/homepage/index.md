@@ -56,10 +56,10 @@ sections:
             icon: /media/technologies/android-logo.jpg
           - name: Figma
             icon: /media/technologies/figma-logo.jpg
-          - name: Firebase
-            icon: /media/technologies/firebase-logo.jpg
           - name: Git
             icon: /media/technologies/git-logo.jpg
+          - name: Firebase
+            icon: /media/technologies/firebase-logo.jpg
           - name: iOS
             icon: /media/technologies/ios-logo.jpg
           - name: MySQL
@@ -70,6 +70,10 @@ sections:
             icon: /media/technologies/react-logo.jpg
           - name: Next.js
             icon: /media/technologies/nextjs-logo.jpg
+          - name: Cypress
+            icon: /media/technologies/cypress-logo-simple.jpg
+          - name: Jest
+            icon: /media/technologies/jest-logo-simple.jpg
   projects:
     heading: ...and what I've done with them
     projects:
@@ -142,6 +146,7 @@ sections:
         name: message
         required: true
 ---
+
 
 
 

@@ -1,4 +1,4 @@
-const NameLogo: React.FC<{}> = () => {
+const NameLogo:  = () => {
   return null;
 };
 

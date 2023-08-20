@@ -1,4 +1,4 @@
-const HeroSection: React.FC<{}> = () => {
+const HeroSection: React.FC = () => {
   return (
     <section
       id="home"

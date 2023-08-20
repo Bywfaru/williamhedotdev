@@ -1,4 +1,4 @@
-const ProjectsSection: React.FC<{}> = () => {
+const ProjectsSection: React.FC = () => {
   return <div>Enter</div>;
 };
 

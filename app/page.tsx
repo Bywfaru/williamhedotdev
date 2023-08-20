@@ -13,7 +13,7 @@ import { HomepageAttributes } from "@/content/homepage/types";
 
 const { sections } = homepageAttributes as HomepageAttributes;
 
-const HomePage: React.FC<null> = () => {
+const HomePage: React.FC = () => {
   return (
     <main className="flex flex-col">
       <Hero />
@@ -27,7 +27,10 @@ const HomePage: React.FC<null> = () => {
         heading={sections.skills.heading}
       />
       <Projects />
-      <Education />
+      <Education
+        heading={sections.education.heading}
+        schools={sections.education.schools}
+      />
       <Contact />
     </main>
   );

@@ -21,7 +21,7 @@ const Navbar: React.FC<NavbarProps> = ({ menuItems }) => {
   return (
     <nav>
       {menuItems.map((menuItem, index) => (
-        <NavbarMenuItem key={`navbarMenuItem${index}`} menuItem={menuItem} />
+        <NavbarMenuItem key={index} menuItem={menuItem} />
       ))}
     </nav>
   );
